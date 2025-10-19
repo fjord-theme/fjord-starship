@@ -32,23 +32,15 @@ A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/fjord-theme/fjord-starship.git
+   git clone https://github.com/fjord-theme/fjord-starship.git --depth 1
    ```
 
-2. Copy the theme file to your Starship config directory:
+2. Backup and Copy the theme file to your Starship config directory:
 
    ```bash
-   mkdir -p ~/.config/starship
-   cp fjord-starship/themes/starship.toml ~/.config/starship/
+   mv ~/.config/starship.toml ~/.config/starship.toml.bak
+   cp fjord-starship/themes/starship.toml ~/.config/starship.toml
    ```
-
-3. Set the theme in your shell configuration (`~/.bashrc`, `~/.zshrc`, etc.):
-
-   ```bash
-   export STARSHIP_CONFIG=~/.config/starship/starship.toml
-   ```
-
-4. Restart your shell to apply the theme.
 
 ## 🔧 Configuration
 
