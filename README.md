@@ -53,7 +53,7 @@ The theme includes:
 
 ## 📸 Preview
 
-![Fjord Starship Theme](https://raw.githubusercontent.com/fjord-theme/fjord/main/docs/images/colortest.png)
+![Fjord Starship Theme](https://github.com/fjord-theme/Fjord/blob/main/images/starship.png)
 
 ## 🔄 Updates
 
